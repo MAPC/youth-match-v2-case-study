@@ -29,9 +29,6 @@
 				}, 250);
 			});
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
-
 		// Prioritize "important" elements on mobile.
 			skel.on('+mobile -mobile', function() {
 				$.prioritize(
@@ -40,13 +37,10 @@
 				);
 			});
 
-		// Scrolly.
-		$('.scrolly').scrolly();
-
-    $(document).ready(function() {
+    $(document).on('ready', function() {
       $('.screen-carousel').slick({
         autoplay: true, 
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
       });
     });
 
