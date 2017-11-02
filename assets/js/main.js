@@ -37,7 +37,10 @@
 				);
 			});
 
-    $(document).on('ready', function() {
+		// Scrolly.
+		$('.scrolly').scrolly();
+
+    $(document).ready(function() {
       $('.screen-carousel').slick({
         autoplay: true, 
         autoplaySpeed: 3000,
