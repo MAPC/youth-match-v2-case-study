@@ -99,6 +99,18 @@ h2 {
   font-weight: 500;
 }
 
+.video-wrapper { text-align: center; }
+
+.preview-video {
+  float: none;
+
+  width: 800px;
+  height: 480px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
 .logos {
   display: flex;
 
@@ -120,3 +132,10 @@ h2 {
   max-height: 100%;
   margin: 0 auto;
 }
+
+.no-top { 
+  padding-top: 0; 
+
+  border-top: none; 
+}
+.no-bottom { border-bottom: none; }
