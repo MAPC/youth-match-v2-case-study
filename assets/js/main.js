@@ -41,7 +41,14 @@
 			});
 
 		// Scrolly.
-			$('.scrolly').scrolly();
+		$('.scrolly').scrolly();
+
+    $(document).ready(function() {
+      $('.screen-carousel').slick({
+        autoplay: true, 
+        autoplaySpeed: 2000,
+      });
+    });
 
 	});
 

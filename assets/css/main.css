@@ -208,7 +208,7 @@
 
 		.container.\32 5\25 {
 			width: 25%;
-		}
+	}
 
 		.container {
 			width: 100% !important;
@@ -2332,9 +2332,11 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 50%;
-			}
+    .image.fit img {
+      width: 50%;
+
+      margin: 0 auto;
+    }
 
 /* List */
 
