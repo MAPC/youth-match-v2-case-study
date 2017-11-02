@@ -82,6 +82,19 @@ button.slick-arrow { display: none !important; }
   max-height: 100%;
 }
 
+.main.style2 { 
+  background-color: #288BE4;
+}
+
+.main {
+  border-top: 4px solid #E8EF37;
+  border-bottom: 4px solid #FB4d42;
+}
+
+.main:first-of-type {
+  border-top-width: 10px;
+}
+
 h2 {
   font-weight: 500;
 }
@@ -89,11 +102,15 @@ h2 {
 .logos {
   display: flex;
 
-  width: 100%;
+  width: 50%;
+  height: 80px;
+  margin: 50px auto; 
 }
 
 .logos .image {
-  flex: 1 0 50%;
+  flex: 1 0 40%;
+
+  margin: 0 5%;
 
   text-align: center;
 }
