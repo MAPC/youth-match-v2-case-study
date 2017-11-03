@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 /*
 	Photon by HTML5 UP
@@ -1809,7 +1809,6 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;

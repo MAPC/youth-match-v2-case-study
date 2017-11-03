@@ -139,3 +139,9 @@ h2 {
   border-top: none; 
 }
 .no-bottom { border-bottom: none; }
+
+@media (max-width: 1440px and screen) {
+#header h1 {
+  font-size:
+}
+}
