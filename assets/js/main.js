@@ -47,6 +47,20 @@
       });
     });
 
+    $('#share-button').click(function() {
+      var copyer = document.createElement('textarea');
+      copyer.style.visibility = 'hidden';
+      copyer.innerHTML = 'https://drive.google.com/file/d/0B811SzyaEqJ3cUVBQi13MjAtcFE/preview';
+
+      copyer.select();
+      var succes = document.execCommand('copy');
+
+      if (success) {
+      }
+
+      copyer.innerHTML = '';
+    });
+
 	});
 
 })(jQuery);
