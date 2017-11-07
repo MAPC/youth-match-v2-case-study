@@ -20,18 +20,27 @@
   border-bottom: 10px solid #E8EF37;
 }
 
-#header .scrolly {
+#header .button {
   margin-top: 100px;
 
   opacity: .7;
   transition: opacity .5s;
 }
 
-#header .scrolly:hover {
+#header .button:hover {
   background: none;
 
   opacity: .9;
   transition: opacity .5s;
+}
+
+img.octocat {
+  position: relative;
+  top: 4px;
+
+  width: 20px;
+  height: 20px;
+  margin-right: 5px; 
 }
 
 #header p {
